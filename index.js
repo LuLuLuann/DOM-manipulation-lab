@@ -167,7 +167,7 @@ event.target.classList.add("active"); // adds active class to clicked link
     if (clickedLink.subLinks) {
         // makes sure submenu shows up (is populated)
         buildSubmenu(clickedLink.subLinks);
-               // subMenuEl.style.top = "100%"; // Shows submenu
+               subMenuEl.style.top = "100%"; // Shows submenu
     } else {
         subMenuEl.style.top = "0"; // Hides submenu if clicking again
     }
